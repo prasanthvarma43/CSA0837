@@ -1,0 +1,5 @@
+ch='m'
+if (ch=='a'or ch=='e'or ch=='i'or ch=='u'or ch=='o'):
+  print(f"{ch} is vowel")
+else:
+  print(f"{ch} is consonants")
