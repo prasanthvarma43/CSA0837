@@ -1,0 +1,9 @@
+def newton_rap(num):
+ x=num/2
+ while True:
+  prev=x
+  x=(x+num/x)/2
+  if abs(x-prev)< 1e-10:
+    return x
+num=9
+print(f"the square root of 9 is {newton_rap(num)}")
