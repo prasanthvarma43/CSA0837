@@ -1,0 +1,4 @@
+numbers = [1, 2, 2, 3, 4, 4,3,2,2,1,4, 4, 5]
+for number in set(numbers):
+    count = numbers.count(number)
+    print(number, "appears", count, "times")
