@@ -1,0 +1,13 @@
+def palindrome(num):
+  original=num
+  reversed=0
+  while num>0:
+    digit=num%10
+    reversed=reversed*10+digit
+    num//=10
+  return original==reversed
+num=1212167
+if palindrome(num):
+    print(f"{num} is a palindrome")
+else:
+    print(f"{num} is not a palindrome")
