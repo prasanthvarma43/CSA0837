@@ -1,0 +1,6 @@
+str="madam"
+reversed=str[::-1]
+if str==reversed:
+  print("given string is palindrome")
+else:
+  print("given string is not palindrome")
