@@ -1,0 +1,5 @@
+def duplicate(a):
+ return duplicate(a)
+a=[9,4,2,2,4,4,6,8,6]
+duplicate=list(set(a))
+print(duplicate)
