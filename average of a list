@@ -1,0 +1,8 @@
+list=[1,54,7,7,3]
+sum=0
+average=0
+if len(list)>0:
+  for i in list:
+   sum+=i
+   average=sum/len(list)
+print("average numbers=",average)
