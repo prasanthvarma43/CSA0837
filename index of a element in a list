@@ -1,0 +1,11 @@
+list=[100,200,300,400,500]
+element=200
+index=-1
+for i in range(len(list)):
+ if list[i]==element:
+  index=i
+  break
+if index!=-1:
+  print(f"element {element} is in index {index}")
+else:
+  print(f"element {element} is not in list")
