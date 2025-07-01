@@ -1,0 +1,5 @@
+str="89383"
+if str.isdigit():
+  print("given string contains digits")
+else:
+  print("given string do not contains digits")
