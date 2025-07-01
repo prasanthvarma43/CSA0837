@@ -1,0 +1,6 @@
+def second_max(num):
+ return second_max(num)
+num=[4,6,8,5,9]
+num.sort(reverse=True)
+second_max=num[1]
+print("second max=",second_max)
