@@ -1,0 +1,6 @@
+def sort_number(num):
+    return sorted(num)
+number=[2,8,5,7,5,8]
+sorted=sort_number(number)
+print("original list:",number)
+print("sorted list:",sorted)
