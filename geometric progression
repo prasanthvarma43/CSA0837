@@ -1,0 +1,8 @@
+
+a = 2     
+r = 3     
+n = 5     
+print("Geometric Progression:")
+for i in range(n):
+    term = a * r**i
+    print(term, end=" ")
