@@ -1,0 +1,8 @@
+def f(x):
+    return 2 * x 
+x = 3
+y = 4
+if f(x + y) == f(x) + f(y):
+    print("The function is additive.")
+else:
+    print("The function is NOT additive.")
