@@ -1,0 +1,14 @@
+list=[3,6,12,24,48]
+if len(list)<2:
+  print("entered list is geometric progression")
+else:
+  ratio=list[1]/list[0]
+  gp=True
+  for i in range(1,len(list)):
+    if list[i]/list[i-1]!=ratio:
+      gp=False
+      break
+  if gp:
+    print("entered list is geometric progression")
+  else:
+    print("entered list is not geometric progression")
