@@ -1,0 +1,8 @@
+Total_Amount=int(input("Enter the Total Amount:"))
+Discount_percentage=float(input("Enter the Discount percentage:"))
+Discount_Amount=Total_Amount*(Discount_percentage/100)
+Discount_Price=Total_Amount-Discount_Amount
+print("Total Amount=",Total_Amount)
+print("Discount percentage=",Discount_percentage)
+print("Discount amount=",Discount_Amount)
+print("Discount price=",Discount_Price)
