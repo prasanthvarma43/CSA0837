@@ -1,0 +1,8 @@
+a=1
+r=3
+n=5
+progression=[]
+for i in range(n):
+    term=a*(r**i)
+    progression.append(term)
+print("GP=",progression)
