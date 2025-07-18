@@ -1,0 +1,7 @@
+A=[[1,2,3],[4,5,6],[7,8,9]]
+row_sum=[sum(i) for i in A]
+column_sum=[sum(j) for j in zip(*A)]
+diagonal=sum(A[i][i] for i in range(len(A)))
+print("sum of rows:",row_sum)
+print("sum of column:",column_sum)
+print("diagonal of a matrix:",diagonal)
