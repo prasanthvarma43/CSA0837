@@ -1,0 +1,7 @@
+A=[[3,4,6,3],[6,8,3,5],[7,2,5,9],[3,2,9,4]]
+result=[]
+while A:
+    result+=A.pop(0)
+    if A:
+        A=list(zip(*A))[::-1]
+print(result)
