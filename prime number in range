@@ -1,0 +1,9 @@
+for i in range(1,5):
+    sum=0
+    for j in range(1,i):
+        if i%j==0:
+            sum+=i
+    if sum==i:
+        print("prime",i)
+    else:
+        print("not prime",i)
