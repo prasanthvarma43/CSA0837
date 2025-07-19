@@ -1,0 +1,5 @@
+matrix=[[1,2,5],[3,4,9],[6,7,8]]
+diagonal_sum=0
+for i in range(len(matrix)):
+ diagonal_sum+=matrix[i][len(matrix)-i-1]
+print("diagonal sum=",diagonal_sum)
